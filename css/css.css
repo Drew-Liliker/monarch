@@ -25,10 +25,18 @@ body {
     padding: 0 8px;
   }
 
+  .area1 {
+    box-shadow: 0 30px 16px 0 rgba(0, 0, 1, 1);
+    margin: 8px;
+    padding: 50px;
+    text-align: center;
+    background-color: #6fc776;
+    color: white;
+  }
+
   .card {
     box-shadow: 0 30px 16px 0 rgba(0, 0, 1, 1);
     margin: 8px;
-    
   }
   
   .about-section {
