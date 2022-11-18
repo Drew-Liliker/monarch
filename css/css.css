@@ -10,6 +10,7 @@ body {
     margin-right: auto;
     filter: drop-shadow(20px 30px 10px black);
   }
+
   html {
     box-sizing: border-box;
   }
@@ -18,20 +19,61 @@ body {
     box-sizing: inherit;
   }
   
-  .column {
+  .j::after{
+    content: "Danaus plexippus";
+    font-weight: bold;
+  }
+
+  .area11 {
     float: left;
     width: 33.3%;
     margin-bottom: 16px;
     padding: 0 8px;
   }
-
-  .area1 {
+  .area12 {
     box-shadow: 0 30px 16px 0 rgba(0, 0, 1, 1);
     margin: 8px;
-    padding: 50px;
-    text-align: center;
-    background-color: #6fc776;
-    color: white;
+  }
+  
+  .area13 {
+    padding: 0 16px;
+    
+  }
+  
+  .area13::after, .row1::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+  .area1 {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  .area2 {
+    box-shadow: 0 30px 16px 0 rgba(0, 0, 1, 1);
+    margin: 8px;
+  }
+  
+  .area3 {
+    padding: 0 16px;
+    
+  }
+  
+  .area3::after, .row2::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
   }
 
   .card {
